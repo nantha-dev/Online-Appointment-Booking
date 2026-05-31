@@ -18,7 +18,7 @@ const Navbar = () => {
       <div className="container-custom">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center cursor-pointer" onClick={() => scrollToSection('home')}>
-            <Calendar className="h-8 w-8 text-blue-600" />
+            <img src="/health.png" alt="MediBook Logo" className="h-8 w-8 mr-2" />
             <span className="ml-2 text-xl font-bold text-gray-800">MediBook</span>
           </div>
 
