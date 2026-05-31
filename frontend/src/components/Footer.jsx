@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import {  Mail, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   const scrollToSection = (sectionId) => {
@@ -19,18 +19,7 @@ const Footer = () => {
               Your trusted partner in healthcare. Book appointments with ease and get quality care.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white transition">
-                <Linkedin className="h-5 w-5" />
-              </a>
+              
             </div>
           </div>
 
